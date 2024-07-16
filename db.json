@@ -1,0 +1,76 @@
+{
+  "productos": [
+    {
+      "nombre": "Silent Hill 2",
+      "precio": "600.00",
+      "imagen": "https://i.pinimg.com/564x/a4/e6/94/a4e694b7b1d190f053298bdea5a4d768.jpg",
+      "id": 2
+    },
+    {
+      "nombre": "Resident Evil 2: Revelations",
+      "precio": "14390.90",
+      "imagen": "https://i.pinimg.com/564x/49/d3/c4/49d3c417b28d1e432bc61b8146d6c37a.jpg",
+      "id": 3
+    },
+    {
+      "nombre": "GTA San Andreas",
+      "precio": "7489.90",
+      "imagen": "https://i.pinimg.com/564x/05/93/85/059385c9483d79c59a4d0002d732884b.jpg",
+      "id": 4
+    },
+    {
+      "nombre": "Animal Crossing",
+      "precio": "149.90",
+      "imagen": "https://i.pinimg.com/564x/80/23/5e/80235e709331397c6e8ee6949a52752c.jpg",
+      "id": 5
+    },
+    {
+      "nombre": "Kirby Airride",
+      "precio": "799.50",
+      "imagen": "https://i.pinimg.com/564x/23/98/d0/2398d04c2209feede1474c2affecf732.jpg",
+      "id": 6
+    },
+    {
+      "nombre": "Pokemon",
+      "precio": "499.00",
+      "imagen": "https://i.pinimg.com/564x/51/ff/61/51ff61e72caef127ce8da534ee59adac.jpg",
+      "id": 7
+    },
+    {
+      "nombre": "Devil May Cry 2",
+      "precio": "990.00",
+      "imagen": "https://i.pinimg.com/236x/59/65/7c/59657c296efb6cbc65464627dc95108a.jpg",
+      "id": 8
+    },
+    {
+      "nombre": "Crash Bandicoot",
+      "precio": "190.90",
+      "imagen": "https://i.pinimg.com/564x/0e/f3/70/0ef37006e54f18297e87de841313dd25.jpg",
+      "id": 9
+    },
+    {
+      "nombre": "Sonic Heroes",
+      "precio": "2990.00",
+      "imagen": "https://i.pinimg.com/564x/a1/a1/62/a1a16222ec02cdaa6b482b5284ccedbb.jpg",
+      "id": 10
+    },
+    {
+      "nombre": "Knockout Kings",
+      "precio": "149.00",
+      "imagen": "https://i.pinimg.com/564x/10/47/74/10477495105efd89572bdf4b8fe97d3e.jpg",
+      "id": 11
+    },
+    {
+      "nombre": "Silent Hill 4: The Room",
+      "precio": "39.00",
+      "imagen": "https://i.pinimg.com/564x/fa/01/c8/fa01c8806613bbab403f36ee2afd3263.jpg",
+      "id": 13
+    },
+    {
+      "id": "77bf",
+      "nombre": "Final Fantasy VII",
+      "precio": "60",
+      "imagen": "https://i.pinimg.com/564x/a1/f0/4b/a1f04b46070590887c5f1bc71c15c615.jpg"
+    }
+  ]
+}

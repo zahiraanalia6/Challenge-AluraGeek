@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header class="head">
+        <img class="logo" src="./assets/corazon-icon.png" alt="corazon">
+        <h1>AluraGeek</h1>
+    </header> 
+
+    <main class="sesion">
+
+        <section class="sesion__itens">
+            <h1 class="sesion__titulo">Mis Productos:</h1>
+            <br>
+            
+            <ul class="sesion_itens_todos" alt="" data-lista>
+
+            </ul>
+
+        </section>
+
+        <section  class="sesion__inserir">
+            <form class="sesion__inserir__formulario" data-formulario>
+                <h1 class="sesion__titulo">Agregar producto:</h1>
+                    <div class="formulario__campo">
+                        <label class="campo__etiqueta" for="nombre"></label>
+                        <input class="campo__escrita" name="nombre" type="text" placeholder="nombre..." minlength="3" required data-nombre/>
+                        <span class="mensaje-error"></span> 
+                    </div>
+                    <div class="formulario__campo">
+                        <label class="campo__etiqueta" for="valor"></label>
+                        <input class="campo__escrita" name="valor" type="number" step="0.01" pattern="\d+(\.\d{2})?" placeholder="precio..." required data-precio/>
+                        <span class="mensaje-error"></span> 
+                    </div>
+                    <div class="formulario__campo">
+                        <label class="campo__etiqueta" for="imagen"></label>
+                        <input class="campo__escrita" name="imagen" type="url" placeholder="imagen..." required data-imagen/>
+                        <span class="mensaje-error"></span> 
+                    </div>
+                    <div class="formulario__botao">
+                        <button class="formulario__botao__botao__guardar" type="submit">Guardar</button>
+                        <button class="formulario__botao__botao__eliminar" type="reset">Eliminar</button>
+                    </div>
+            </form>
+        </section>
+        
+    </main> 
+
+    <footer class="rodape">
+        <div class="rodape_logo">
+            <img class="logo" src="./assets/corazon-icon.png" alt="corazon">
+            <h1 class="rodape__titulo">AluraGeek</h1>
+        </div>
+        <p class="rodape__texto">Desarrollado por Zahira Porta</p>
+        <p class="rodape__texto">2024</p>
+        <div class="redes_sociales">
+            <a href="https://github.com/pamyszz" target="_blank">
+                <img class="img-redes" src="./assets/github-logo.png" alt="imagem github">
+            </a>
+            <a href="https://www.linkedin.com/in/zahira-porta-319474295/" target="_blank">
+                <img class="img-redes" src="./assets/linkedin-logo.png" alt="imagen linkedin">
+            </a>
+        </div>
+    </footer>
+
+    <script src="./script/mostrarProductos.js" type="module"></script>
+    <script src="./script/crearProductos.js" type="module"></script>
+    <script src="./script/excluirProductos.js" type="module"></script>
+    <script src="./script/conectaApi.js" type="module"></script>
+</body>
+</html>
